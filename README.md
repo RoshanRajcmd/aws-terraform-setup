@@ -1,6 +1,6 @@
 # ☁️ AWS setup via Terraform
  
-This Repository contains the Terraform's (IaC) code to setup a basic VPC for you in AWS. This VPC will have a public subnet, EC2 instance, IWG - Internet gateway and RouteTables. The RouteTables are also configured to bridge the IWG and subnet.
+This Repository contains the Terraform's (IaC) code to setup a basic cloud architecture in AWS. This VPC will have a public subnet, EC2 instance, IWG - Internet gateway and RouteTables. The RouteTables are also configured to bridge the IWG and subnet.
 
 ## 🧑‍💻 Developer setup
 
