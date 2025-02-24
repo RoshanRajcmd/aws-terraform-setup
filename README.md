@@ -1,6 +1,6 @@
-# AWS setup via Terraform
+# ☁️ AWS setup via Terraform
  
-This Repository contains the Terraform's (IaC) code to setup a basic VPC for you in AWS. This VPC will have a public subnet, EC2 instance, IWG - Internet gateway and RouteTables. The RouteTables are also configured to bridge the IWG and with subnet
+This Repository contains the Terraform's (IaC) code to setup a basic VPC for you in AWS. This VPC will have a public subnet, EC2 instance, IWG - Internet gateway and RouteTables. The RouteTables are also configured to bridge the IWG and subnet.
 
 ## 🧑‍💻 Developer setup
 
@@ -28,6 +28,6 @@ If you’re satisfied with the plan, run `terraform apply` to apply the changes 
 7. To **destroy** the resources when you're done, run `terraform destroy`
 
 ### Variables
-    You can give other values to these variable by defining it while running terraform apply.
+    - You can give other values to these variable by defining it while running terraform apply.
         Example cmd: terraform apply -var "instance_name=RoshansInstance"
-    Alternatively you can use the terraform.tfvars to set values to the variable defined in your variables.tf file.
+    - Alternatively you can use the terraform.tfvars to set values to the variable defined in your variables.tf file.
